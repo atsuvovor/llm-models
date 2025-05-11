@@ -1,0 +1,32 @@
+# Ignore Git and metadata
+.git
+.gitignore
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE/project configs
+.vscode/
+*.swp
+*.swo
+
+# Other
+*.zip
+.pytest_cache/
+cyber_attack_simulator_package.zip

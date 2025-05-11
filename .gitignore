@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Streamlit config
+.streamlit/config.toml
+
+# VS Code settings
+.vscode/
+
+# Test cache
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# OS-specific
+*.swp
+*.swo
+
+# Project-specific
+cyber_attack_simulator_package.zip

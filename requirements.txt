@@ -1,0 +1,12 @@
+streamlit==1.33.0
+pandas==2.2.2
+plotly==5.21.0
+numpy==1.26.4
+scipy==1.13.0
+scikit-learn==1.4.2
+faker==24.10.0
+
+# seaborn==0.13.2       # For static plots (optional)
+# matplotlib==3.8.4     # Required if using Matplotlib for static output
+# fpdf==1.7.2           # If exporting PDF executive reports
+# joblib==1.4.0         # For model saving/loading
