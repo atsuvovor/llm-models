@@ -3,6 +3,9 @@
 run:
 	streamlit run app.py
 
+install:
+	pip install -r requirements.txt
+
 build:
 	docker build -t cyber-attack-sim-app .
 

@@ -6,7 +6,7 @@
 
 import numpy as np
 import pandas as pd
-from attack_classes import (
+from simulation.attack_classes import (
     PhishingAttack,
     MalwareAttack,
     DDoSAttack,
@@ -21,7 +21,7 @@ class BaseAttackSimulator:
         self.base_data = base_data.copy()
         self.anomaly_magnitude = anomaly_magnitude
         self.phase = phase
-
+    '''
     def inject_anomaly(self, column: str, distribution: str = "normal", params: dict = {}):
         dist_map = {
             "normal": np.random.normal,
@@ -54,7 +54,7 @@ class BaseAttackSimulator:
 
         attack_class = attack_map[attack_type]
         return attack_class(self.base_data).apply()
-
-    def run_multiple_attacks(self, attack_list: list):
-        return run_selected_attacks(self.base_data, attack_list)
+    '''
+    def run_multiple_attacks(self,attacks):
+        return run_selected_attacks(self.base_data, self.anomaly_magnitude, attacks)
 

@@ -9,7 +9,6 @@ from .attack_classes import (
     InsiderThreatAttack,
     RansomwareAttack,
     EarlyAnomalyDetectorClass,
-    DataCombiner,
     IPAddressGenerator,
     run_selected_attacks
 )
